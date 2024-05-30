@@ -1,7 +1,7 @@
 <template>
   <div class="registerSubmit">
     <div class="registerSubmit_head">
-      <a-menu v-model:selectedKeys="current" mode="horizontal" :items="items" />
+      <!-- <a-menu v-model:selectedKeys="current" mode="horizontal" :items="items" /> -->
     </div>
     <div class="registerSubmit_form">
       <div class="registerSubmit_youxiang" v-show="current[0] === 'mail'">
@@ -18,7 +18,7 @@
 import { h, ref } from "vue";
 import emailRegisterVue from "./emailRegister.vue";
 import numberRegisterVue from './numberRegister.vue';
-const current = ref(["mail"]);
+const current = ref(["app"]);
 const items = ref([
   {
     key: "mail",

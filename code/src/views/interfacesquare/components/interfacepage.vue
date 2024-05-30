@@ -39,7 +39,7 @@
                 </td>
                 <td>
                   <span class="span1">调用总次数：</span>
-                  <span class="span2">0次</span>
+                  <span class="span2">10次</span>
                 </td>
                 <td>
                   <span class="span1">接口状态：</span>

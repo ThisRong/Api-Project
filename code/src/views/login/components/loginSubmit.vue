@@ -1,11 +1,11 @@
 <template>
   <div class="loginSubmit">
     <div class="loginSubmit_head">
-      <a-menu
+      <!-- <a-menu
       v-model:selectedKeys="current"
       mode="horizontal"
       :items="items"
-    />
+    /> -->
     </div>
     
     <div class="loginSubmit_form">
@@ -23,7 +23,7 @@
 import emailLoginVue from './emailLogin.vue';
 import numberLoginVue from './numberLogin.vue';
 import { h, ref } from "vue";
-const current = ref(["mail"]);
+const current = ref(["app"]);
 const items = ref([
   {
     key: "mail",

@@ -301,6 +301,7 @@ const handleOk = () => {
   }else if(nameoremil.value === 3){
     userBaseInfo.userPassword = userPasswords.value;
     userPasswords.value = "";
+    getUpdataUser();
   }
   visible.value = false;
 };
